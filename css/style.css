@@ -36,7 +36,7 @@ a:hover{
 }
 .Background_Banner{
   position: relative;
-  margin: 0;
+  padding: 0;
   width: 100%;
 }
 #Home{
