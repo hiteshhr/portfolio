@@ -7,17 +7,16 @@ body{
   margin: 0;
   text-align: center;
 }
-.nav_menu{
-  float: right;
-  position: relative;
-  right: 10%;
-  top:20px;
-}
+
 .nav_bar{
   text-align: left;
   position: absolute;
   z-index: 1;
   width: 100%;
+}
+.nav-item{
+  padding: 20px;
+  text-align: left;
 }
 .Logo{
   width: 15%;
@@ -25,14 +24,14 @@ body{
   left:10%;
 }
 a{
-  width: 2%;
+  /* width: 2%; */
   padding-left: 1rem;
   text-decoration: none;
   color: #8c8c8c;
 }
 a:hover{
   color:  #404040;
-  font-weight: bold;
+  text-decoration: none;
 }
 .Background_Banner{
   position: relative;
@@ -64,9 +63,8 @@ a:hover{
 }
 
 .About_Me_Info{
-  text-align: center;
+  text-align: left;
   line-height: 1.5rem;
-
 }
 p{
   margin-top: 0px;
@@ -105,7 +103,7 @@ img{
   width: 60%;
 }
 .social_logo{
-  width: 5%;
+  width: 8%;
 }
 footer{
   color: white;
@@ -120,6 +118,16 @@ footer{
   img{
     width: 40%;
     padding: 15px;
+  }
+  .nav-item{
+    padding: 10px 10px 10px 40px;
+    text-align: left;
+  }
+  .nav_bar{
+    text-align: left;
+    position: relative;
+    z-index: 1;
+    width: 100%;
   }
   #About_Me{
     text-align: center;
@@ -151,7 +159,6 @@ footer{
   width: 80%;
   }
   .nav_menu{
-    visibility: hidden;
     width: 50%;
   }
   .nav_bar{
